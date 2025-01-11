@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activities"
+    app:startDestination="@id/activitiesListFragment">
+
+    <fragment
+        android:id="@+id/activitiesListFragment"
+        android:name="com.example.readytoenjoy.ui.activity.ActivitiesListFragment"
+        android:label="fragment_activity_list"
+        tools:layout="@layout/fragment_activity_list" >
+        <action
+            android:id="@+id/action_activitiesListFragment_to_activityInfoFragment"
+            app:destination="@id/activityInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/activityInfoFragment"
+        android:name="com.example.readytoenjoy.ui.activity.ActivityInfoFragment"
+        android:label="fragment_activity_info"
+        tools:layout="@layout/fragment_activity_info" />
+</navigation>

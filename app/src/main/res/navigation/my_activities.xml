@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_activities"
+    app:startDestination="@id/myActivitiesListFragment">
+
+    <fragment
+        android:id="@+id/myActivitiesListFragment"
+        android:name="com.example.readytoenjoy.ui.activity.MyActivitiesListFragment"
+        android:label="fragment_my_activities_list"
+        tools:layout="@layout/fragment_my_activities_list" >
+        <action
+            android:id="@+id/action_myActivitiesListFragment_to_createActivityFragment"
+            app:destination="@id/createActivityFragment" />
+        <action
+            android:id="@+id/action_myActivitiesListFragment_to_editActivityFragment"
+            app:destination="@id/editActivityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createActivityFragment"
+        android:name="com.example.readytoenjoy.ui.activity.CreateActivityFragment"
+        android:label="fragment_create_activity"
+        tools:layout="@layout/fragment_create_activity" >
+        <argument
+            android:name="showNavbar"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/editActivityFragment"
+        android:name="com.example.readytoenjoy.ui.activity.EditActivityFragment"
+        android:label="fragment_edit_activity"
+        tools:layout="@layout/fragment_edit_activity" />
+</navigation>

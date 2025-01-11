@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create"
+    app:startDestination="@id/createActivityFragment2">
+
+    <fragment
+        android:id="@+id/createActivityFragment2"
+        android:name="com.example.readytoenjoy.ui.activity.CreateActivityFragment"
+        android:label="fragment_create_activity"
+        tools:layout="@layout/fragment_create_activity" />
+</navigation>
