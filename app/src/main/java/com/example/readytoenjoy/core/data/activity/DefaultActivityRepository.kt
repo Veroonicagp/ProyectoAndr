@@ -31,7 +31,7 @@ class DefaultActivityRepository @Inject constructor(
         get() = _state.asStateFlow()
 
     override suspend fun getActivities(): List<Activity> {
-       val response = activityNetworkRepository.read()
+       val response = activityNetworkRepository.getActivities()
         //val activityList = _state.value.toMutableList()
         return if (response.isSuccessful){
             val activities = response.body()!!.data.toExternal()

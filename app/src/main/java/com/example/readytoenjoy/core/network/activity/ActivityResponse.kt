@@ -1,11 +1,4 @@
 package com.example.readytoenjoy.core.network.activity
-data class ActivityRequest(
-    val id: String,
-    val title: String,
-    val location: String,
-    val price: String,
-    val description: String,
-)
 
 data class ActivityAttributesResponse(
     val title: String,
@@ -17,15 +10,9 @@ data class ActivityAttributesResponse(
 data class ActivityResponse(
     val id: String,
     val attributes: ActivityAttributesResponse
-)
-
-data class ActivityListRawResponse(
-    /**val count: String,
-    val prev: String?,
-    val next: String?,*/
-    val data: List<ActivityResponse>
-)
-
-data class ActivityRawResponse(
-    val data: ActivityResponse
+    /**
+    val title: String,
+    val location: String,
+    val price: String,
+    val description: String,*/
 )

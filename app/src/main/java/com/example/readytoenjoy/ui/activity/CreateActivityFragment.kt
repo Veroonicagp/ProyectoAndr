@@ -7,9 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.readytoenjoy.databinding.FragmentCreateActivityBinding
-import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class CreateActivityFragment : Fragment() {
 
     private lateinit var binding: FragmentCreateActivityBinding

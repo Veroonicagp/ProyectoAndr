@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReadyToEnjoy</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="btnLogin">Login</string>
+    <string name="registro">I am not registered yet</string>
+    <string name="activities">Activities</string>
+    <string name="myActivities">My Activities</string>
+    <string name="adventurers">Adventurers</string>
+    <string name="porfile">Profile</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Surname</string>
+    <string name="email">Email</string>
+    <string name="btnRegistrar">Registrer</string>
+    <string name="title">Title</string>
+    <string name="createAct">Create Acticvity</string>
+    <string name="location">Location</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="crear">Crear</string>
+</resources>

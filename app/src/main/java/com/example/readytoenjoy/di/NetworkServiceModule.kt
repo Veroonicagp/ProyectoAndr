@@ -42,5 +42,4 @@ class NetworkServiceModule {
             .build()
             .create(ReadyToEnjoyApiService::class.java)
     }
-
 }

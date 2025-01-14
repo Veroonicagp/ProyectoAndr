@@ -9,9 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.readytoenjoy.core.data.activity.Activity
 import com.example.readytoenjoy.databinding.FragmentMyActivitiesListBinding
-import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class MyActivitiesListFragment : Fragment() {
 
     private lateinit var binding: FragmentMyActivitiesListBinding
