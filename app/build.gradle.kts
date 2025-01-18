@@ -53,6 +53,7 @@ dependencies {
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     //Hilt
     implementation ("com.google.dagger:hilt-android:2.51.1")
+    implementation(libs.androidx.datastore.core.android)
     kapt("com.google.dagger:hilt-android-compiler:2.51.1")
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
