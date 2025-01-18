@@ -14,7 +14,7 @@ class ActivityNetworkRepository @Inject constructor(
 
     private val _state = MutableStateFlow<List<Activity>>(listOf())
 
-    override suspend fun getActivities(): Response<ActivityListRawResponse> {
+    override suspend fun read(): Response<ActivityListRawResponse> {
         return api.getAllActivitiesFromSercice()
     }
 

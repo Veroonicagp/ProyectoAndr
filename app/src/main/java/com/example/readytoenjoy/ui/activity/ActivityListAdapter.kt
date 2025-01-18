@@ -19,7 +19,7 @@ class ActivityListAdapter(): ListAdapter<Activity, ActivityListAdapter.ActivityV
             binding.crdLocation.text=activity.location
             binding.crdPrice.text=activity.price
             binding.root.setOnClickListener  {
-               // toActivityDetail(activity)
+               //toActivityDetail(activity)
             }
         }
     }

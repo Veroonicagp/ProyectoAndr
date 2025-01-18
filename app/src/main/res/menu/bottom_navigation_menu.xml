@@ -4,20 +4,20 @@
         android:id="@+id/activities"
         android:enabled="true"
         android:icon="@drawable/smile"
-        android:title="@string/activities"/>
+        android:title="Activities"/>
     <item
         android:id="@+id/my_activities"
         android:enabled="true"
         android:icon="@drawable/star"
-        android:title="@string/myActivities"/>
+        android:title="My Activities"/>
     <item
         android:id="@+id/adventurers"
         android:enabled="true"
         android:icon="@drawable/people"
-        android:title="@string/adventurers"/>
+        android:title="Adventurers"/>
     <item
         android:id="@+id/porfile"
         android:enabled="true"
         android:icon="@drawable/person"
-        android:title="@string/porfile"/>
+        android:title="Porfile"/>
 </menu>

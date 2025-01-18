@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.readytoenjoy.databinding.ActivityLoginBinding
 import com.example.readytoenjoy.ui.MainActivity
 import com.example.readytoenjoy.ui.register.RegisterActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -2,6 +2,8 @@ package com.example.readytoenjoy.di
 
 import com.example.readytoenjoy.core.data.activity.ActivityRepositoryInterface
 import com.example.readytoenjoy.core.data.activity.DefaultActivityRepository
+import com.example.readytoenjoy.core.data.adven.AdvenRepositoryInterface
+import com.example.readytoenjoy.core.data.adven.DefaultAdvenRepository
 import com.example.readytoenjoy.core.network.activity.ActivityNetworkRepository
 import com.example.readytoenjoy.core.network.activity.ActivityNetworkRepositoryInterface
 import com.example.readytoenjoy.core.network.ReadyToEnjoyApiService
@@ -18,8 +20,11 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 abstract class Module {
 
+    //@Binds
+   // abstract fun provideDefaultAdvenRepository(defaultAdvenRepository: DefaultAdvenRepository): AdvenRepositoryInterface
+
     @Binds
-    abstract fun provideDefaultActivityRepository(defaultPokemonRepository: DefaultActivityRepository): ActivityRepositoryInterface
+    abstract fun provideDefaultActivityRepository(defaultActivityRepository: DefaultActivityRepository): ActivityRepositoryInterface
 
     @Binds
     abstract fun provideActivityRemoteRepository(pokemonRemoteRepository: ActivityNetworkRepository): ActivityNetworkRepositoryInterface
@@ -42,4 +47,5 @@ class NetworkServiceModule {
             .build()
             .create(ReadyToEnjoyApiService::class.java)
     }
+
 }
