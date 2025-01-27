@@ -14,6 +14,7 @@ el precio aproximado de la actividad, y una breve descripción de donde poder co
 
 ## 🚀 Funcionalidades  
 ✔️  Nuevas ideas 
+
 ✔️  Promocionar Actividades  
 ✔️  Compartir experiencias  
 ✔️  Fomentar quedar con amigos, familia o tu solo tanto al aire libre como en sitios nuevos 
